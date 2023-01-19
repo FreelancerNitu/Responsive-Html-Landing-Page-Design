@@ -1,0 +1,691 @@
+/********************** 
+* All Default CSS
+**********************/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  letter-spacing: 1px;
+}
+.my-btn {
+  text-decoration: none;
+  background: #0F3460;
+  padding: 5px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #fff;
+  transition: .3s;
+}
+.my-btn:hover{
+  background: #0F3460;
+  color: rgb(182, 26, 26);
+}
+img{
+  max-width: 100%;
+}
+.title {
+  text-align: center;
+}
+.title p {
+  margin: 20px 0;
+  color: #736c6c;
+}
+.title h1 {
+  text-transform: capitalize;
+}
+.title h1::before {
+  content: "";
+  background: #0F3460;
+  width: 140px;
+  height: 5px;
+  top: 1pxx;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translatey(60px);
+}
+.style {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #15b22e;
+	position: absolute;
+	right: 400px;
+}
+.arrow{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.work-arrow {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: 9px;
+  margin-left: 6px;
+}
+/*************************
+* Top Header CSS
+**************************/
+.header {
+  background: #ddd;
+}
+.header-phone, .header-mail{
+  padding: 5px;
+}
+.header-phone p, .header-mail p {
+  padding: 0px 5px;
+  margin-bottom: 0;
+  font-weight: 600;
+  border-left: 2px solid #0F3460;
+  font-size: 14px;
+}
+.header-phone img, .header-mail img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.header-phone p span, .header-mail p span {
+  font-weight: 200;
+  margin: 0 10px;
+}
+.social {
+  margin-bottom: 0;
+  margin: 5px 0;
+  text-align: end;
+}
+.social a {
+  text-decoration: none;
+  color: #0F3460;
+  font-weight: 500;
+  border-left: 2px solid #0F3460;
+  padding: 5px;
+  font-size: 14px;
+  margin: 0 5px;
+}
+.social a img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+/**********************
+* Nav Menu CSS
+**********************/
+.nav-menu {
+  padding: 15px 0;
+}
+nav ul {
+  text-align: end;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 7px 20px;
+}
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #0F3460;
+}
+
+/*************************
+* Banner Section CSS
+*************************/
+.banner-wrapper {
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+.banner-details {
+  padding: 25px;
+}
+
+.banner-details h1 {
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 55px;
+}
+.banner-details p {
+  width: 50%;
+  color: #cec6c6;
+  margin: 22px 0;
+}
+a.banner-btn {
+  text-decoration: none;
+  background: #0F3460;
+  padding: 5px 25px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px;
+}
+
+/************************
+* Cards Section CSS
+************************/
+section#cards {
+  margin: 20px 0;
+}
+.cards {
+  height: 400px;
+  background: #EAEEF3;
+  box-shadow: 0 1.25em 1.8em rgb(8 21 65 / 25%);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.cards.active {
+  background: #FF0032;
+}
+.card-img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.card-desh h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  padding: 0 10px;
+  text-align: start;
+}
+.card-desh p {
+  text-align: start;
+  color: #625e5e;
+}
+.card-desh a {
+  text-align: start;
+  display: flex;
+  text-decoration: none;
+  color: #0F3460;
+  padding: 0 10px;
+}
+
+.card-desh a:hover {
+  text-decoration: underline;
+}
+
+/*************************
+* Works Section CSS
+*************************/
+.work-wrapper {
+  margin: 50px 0;
+}
+.work-img img {
+  width: 100%;
+}
+.work-table {
+  display: flex;
+}
+.work-desh h2 {
+  font-weight: 600;
+}
+.work-desh p {
+  margin: 19px 0;
+}
+.f-table {
+  margin-right: 100px;
+}
+.f-table li, .l-table li{
+  list-style: none;
+  margin: 10px 0;
+}
+.f-table li a, .l-table li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #333;
+  font-weight: 600;
+  font-size: 18px;
+}
+a.work-btn {
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  background: #0F3460;
+  padding: 5px 25px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  margin: 20px auto;
+  width: 200px;
+}
+
+/***********************
+* Latest Idea CSS
+***********************/
+.latest-desh {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+.main-support {
+  display: flex;
+}
+.support {
+  text-align: center;
+}
+.support img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.support {
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 1.25em 1.8em rgb(8 21 65 / 25%);
+  border-radius: 5px;
+}
+.support h3 {
+  font-size: 18px;
+}
+.support p {
+  padding: 10px;
+  font-size: 14px;
+  color: #ddd;
+}
+.latest-img img {
+  width: 100%;
+  max-width: 100%;
+  height: 474px;
+}
+.latest-desh h2, p {
+  padding: 0 10px;
+}
+
+/***************************
+* Counter Section CSS 
+***************************/
+section#counter {
+  margin: 20px 0;
+  overflow: hidden;
+}
+.counter-wrapper {
+  background-image: url('../img/footer.png');
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.counter {
+  text-align: center;
+}
+.counter img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid #FF0032;
+  padding: 3px;
+}
+.counter {
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.counter h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #FF0032;
+  margin: 10px 0;
+}
+.counter h5 {
+  color: #FF0032;
+  font-size: 20px;
+}
+
+/*************************
+* Blog Section CSS
+*************************/
+section#blog {
+  margin: 20px 0;
+}
+.single-blog {
+  margin-bottom: 20px;
+}
+.b-card-img img {
+  width: 100%;
+  height: 300px;
+}
+.b-card-desh {
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  padding: 20px;
+}
+.b-date p {
+  padding: 0;
+  font-size: 14px;
+}
+.b-desh h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.b-desh p {
+  font-weight: 400;
+  padding: 0;
+}
+.b-desh a {
+  text-decoration: none;
+  color: #0F3460;
+  transition: .3s;
+}
+.b-desh a:hover {
+  text-decoration: underline;
+}
+
+/***************************
+* Projects Section CSS
+***************************/
+section#project {
+  margin: 20px 0;
+}
+.projects {
+  position: relative;
+  margin-bottom: 10px;
+}
+.project-desh {
+  position: absolute;
+  top: 50%;
+}
+.project-img img {
+  width: 100%;
+  height: 340px;
+}
+.project-desh p {
+  font-size: 18px;
+  color: #fff;
+  padding: 0;
+}
+.project-desh h2 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.project-desh {
+  padding: 0 10px;
+}
+.project-desh a {
+  text-decoration: none;
+  color: #0F3460;
+  cursor: pointer;
+}
+.project-desh a:hover {
+  text-decoration: underline;
+}
+
+/*************************** 
+* Pricing Section CSS
+***************************/
+.pricing-card {
+  background: #EAEEF3;
+  box-shadow: 0 1.25em 1.8em rgb(8 21 65 / 25%);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.pricing-card h4 {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.pricing-card h3 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.pricing-card h3 span {
+  font-weight: 400;
+  font-size: 25px;
+}
+.pricing-list {
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+.pricing-list li {
+  list-style: none;
+  color: #504646;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/**************************
+* Newslatter Section CSS
+**************************/
+.news-from {
+  text-align: center;
+  margin: 50px 0;
+}
+.news-from .inputf {
+  width: 500px;
+  padding: 15px 20px;
+  border-radius: 61px;
+  outline: none;
+  border: none;
+  background: #EAEEF3;
+  box-shadow: 0 1.25em 1.8em rgb(8 21 65 / 25%);
+}
+button.inputbtn {
+  padding: 15px 35px;
+  border: none;
+  background: green;
+  border-radius: 35px;
+  margin-left: -79px;
+  color: #ddd;
+  box-shadow: 0 1.25em 1.8em rgb(8 21 65 / 25%);
+}
+
+/**************************
+* Footer Area CSS
+**************************/
+.r-fpost {
+  display: flex;
+}
+.date {
+  background: red;
+  width: 70px;
+  height: 100px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.r-desh h4 {
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+.r-desh {
+  margin-left: 10px;
+}
+.author {
+  display: flex;
+}
+.author p {
+  font-size: 14px;
+  margin-right: 15px;
+}
+.date h4 {
+  font-size: 30px;
+  color: #fff;
+}
+.date h5 {
+  font-size: 15px;
+  color: #fff;
+}
+.date h6 {
+  color: #fff;
+}
+
+.footer{
+  background-image: url("../img/moon.jpg");
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.useful-links li {
+  list-style: none;
+  padding: 4px 0;
+  border-bottom: 1px dotted #ddd;
+}
+.useful-links li:nth-child(5){
+  border-bottom: none;
+}
+.useful-links li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+.contact-us p {
+	margin: 5px 0;
+	padding: 0;
+}
+.about-us p {
+	padding: 0;
+	margin: 0;
+}
+/*************************** 
+* Copyrights Section CSS
+***************************/
+.copyrights {
+  border-top: 1px dotted #ddd;
+  padding: 10px;
+}
+.copyrights p {
+  padding-top: 13px;
+  color: #ddd;
+  font-size: 14px;
+}
+.faq li {
+  list-style: none;
+  display: inline-block;
+  padding: 14px 0;
+}
+.faq li a {
+  text-decoration: none;
+  color: #fff;
+  color: #ddd;
+  margin: 0 20px;
+  font-size: 14px;
+}
+.faq {
+  text-align: end;
+}
+
+
+/************************************
+* Responsive CSS 
+************************************/
+
+/************************************
+* Mostly Common Mobile Device CSS 
+************************************/
+@media (min-width: 320px) and (max-width: 480px) {
+
+.counter-wrapper {
+  height: auto!important;
+}
+.title h1::before {
+  transform: translatey(50px);
+}
+.contact-us, .r-post{
+	margin: 20px 0;
+}
+.faq {
+	text-align: center;
+}
+.copyrights p {
+	text-align: center;
+}
+.faq li a {
+	margin: 0 5px;
+}
+.counter {
+  margin-top: 20px;
+}
+.banner-wrapper {
+  height: auto;
+}
+.banner-details h1 {
+  font-size: 23px;
+  line-height: 40px;
+}
+.banner-details p {
+  width: 100%;
+}
+.work-desh h2 {
+  margin-top: 15px;
+}
+.f-table {
+  margin-right: 0;
+}
+.work-table {
+  padding: 10px;
+}
+.social {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.social a:nth-child(1){
+  border: none;
+}
+.header-phone, .header-mail {
+  text-align: center;
+}
+.header-phone p, .header-mail p{
+  border: none;
+}
+.news-from .inputf {
+  width: 100%;
+  margin-bottom: 10px;
+}
+button.inputbtn {
+  margin-left: 0;
+}
+.title h1 {
+  font-size: 25px;
+}
+
+}
+
+/* Ipad Device CSS */
+@media (min-width: 768px) and (max-width: 1024px) {
+.banner-wrapper {
+    height: auto;
+  }
+.latest-img img {
+    height: 614px;
+}
+.work-img img {
+  height: 455px;
+}
+.banner-details p {
+  width: 80%;
+}
+.useful-links {
+	margin-top: 20px;
+}
+.r-post {
+	margin-top: 20px;
+}
+.faq li {
+	padding: 11px 0;
+}
+.faq li a {
+	margin: 0 10px;
+}
+}
